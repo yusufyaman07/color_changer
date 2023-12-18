@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+#click_me{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+}
